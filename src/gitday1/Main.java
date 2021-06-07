@@ -9,6 +9,10 @@ public class Main {
 
     }
 
+    private static int division (int i, int j) {
+        return (i / j);
+    }
+
     private static int increment (int i){
         i++;
         return i;
