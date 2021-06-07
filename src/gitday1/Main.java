@@ -13,9 +13,9 @@ public class Main {
         return i;
     }
 
-    private static int decrement (int j){
-        j--;
-        return j;
+    private static int decrement (int i){
+        i--;
+        return i;
     }
 
 }
