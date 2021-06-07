@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(increment(2));
         System.out.println(decrement(2));
+        System.out.println(multiply(2,3));
 
     }
 
@@ -16,6 +17,10 @@ public class Main {
     private static int decrement (int i){
         i--;
         return i;
+    }
+
+    private static int multiply (int i, int j){
+        return (i*j);
     }
 
 }
