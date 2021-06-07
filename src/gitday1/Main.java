@@ -6,6 +6,7 @@ public class Main {
         System.out.println(increment(2));
         System.out.println(decrement(2));
         System.out.println(multiply(2,3));
+        System.out.println(doubleInt(5));
 
     }
 
@@ -25,6 +26,10 @@ public class Main {
 
     private static int multiply (int i, int j){
         return (i*j);
+    }
+
+    private static int doubleInt (int i){
+        return (i*2);
     }
 
 }
